@@ -395,7 +395,6 @@ header {
 
 header .headerWrap.hide-bg {
   background-color: rgba(196, 228, 226, 0.4);
-  pointer-events: none;
 }
 
 header .headerWrap {
@@ -1426,6 +1425,7 @@ footer .footer_i .footer_right .fnav ul li:not(:last-of-type):after {
   height: 10px;
   background-color: #848484;
   margin-left: 4px;
+  vertical-align: middle;
 }
 
 .mobilenav {
@@ -1433,7 +1433,7 @@ footer .footer_i .footer_right .fnav ul li:not(:last-of-type):after {
   position: fixed;
   width: 100%;
   z-index: 990;
-  padding: 10px 80px 35px 80px;
+  padding: 10px 30px 35px 30px;
   background-color: rgb(255, 255, 255, 0.8);
   bottom: 0;
 }
@@ -1612,13 +1612,18 @@ footer .footer_i .footer_right .fnav ul li:not(:last-of-type):after {
     opacity: 1;
   }
 
+   .bestSeller .best_i .bestContents .bestContents_right .rightItem .itemText .itemName{
+     margin-bottom: 12px;
+   }
+
   .bestSeller .best_i .bestContents .bestContents_right .rightItem .itemText .itemName h3 {
     font-size: calc(min(14px, 3vw));
     margin-bottom: 0;
   }
 
   .bestSeller .best_i .bestContents .bestContents_right .rightItem .itemText .itemName span {
-    font-size: calc(min(12px, 3vw));
+    font-size: calc(min(14px, 2.5vw));
+    font-weight: 500;
   }
 
   .bestSeller .best_i .bestContents .bestContents_right .rightItem .itemText .itemOption ul li:first-of-type {
@@ -1647,6 +1652,10 @@ footer .footer_i .footer_right .fnav ul li:not(:last-of-type):after {
   .pickSection {
     padding: 40px 0;
   }
+
+  .pickSection .mobile_wrap {
+  display: block;
+}
 
   .pickSection .pickTitle {
     display: none;
