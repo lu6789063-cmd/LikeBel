@@ -1,0 +1,11 @@
+/* import나 font-face는 여기에 연결해서 사용하면 됨 */
+
+@font-face {
+  font-family: "preten";
+  src: url(../Font/PretendardVariable.ttf);
+}
+
+@font-face {
+  font-family: "head";
+  src: url(../Font/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
